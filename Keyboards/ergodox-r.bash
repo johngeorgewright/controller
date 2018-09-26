@@ -13,17 +13,17 @@
 
 # Feel free to change the variables in this section to configure your keyboard
 
-BuildPath="ICED-R"
+BuildPath="JGW-ED-R"
 
 ## KLL Configuration ##
 
 # Generally shouldn't be changed, this will affect every layer
-BaseMap="scancode_map rightHand slave1 leftHand"
+BaseMap="jgw/scancode_map rightHand slave1 leftHand"
 
 # This is the default layer of the keyboard
 # NOTE: To combine kll files into a single layout, separate them by spaces
 # e.g.  DefaultMap="mylayout mylayoutmod"
-DefaultMap="infinity_ergodox/all-leds infinity_ergodox/mdergo1Overlay infinity_ergodox/lcdFuncMap"
+DefaultMap="infinity_ergodox/all-leds jgw/MDErgo1-Default-0 infinity_ergodox/lcdFuncMap"
 
 # This is where you set the additional layers
 # NOTE: Indexing starts at 1
@@ -31,8 +31,9 @@ DefaultMap="infinity_ergodox/all-leds infinity_ergodox/mdergo1Overlay infinity_e
 # e.g.  PartialMaps[1]="layer1 layer1mod"
 #       PartialMaps[2]="layer2"
 #       PartialMaps[3]="layer3"
-PartialMaps[1]="infinity_ergodox/iced_func"
-PartialMaps[2]="infinity_ergodox/iced_numpad"
+PartialMaps[1]="jgw/MDErgo1-Default-1"
+PartialMaps[2]="jgw/MDErgo1-Default-2"
+PartialMaps[3]="jgw/MDErgo1-Default-3"
 
 
 
